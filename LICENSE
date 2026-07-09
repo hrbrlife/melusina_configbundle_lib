@@ -1,0 +1,156 @@
+Melusina Public License v3.0 (MPL-MEL-3.0)
+SPDX-License-Identifier: LicenseRef-MPL-MEL-3.0
+Source-available, not open-source by default.
+Each published version converts to AGPL v3 automatically five years after that version's own publish date.
+Canonical text: Melusina_OS_Legal/Licenses/M06 (Melusina Public License v3.0).
+The full canonical license text follows below.
+
+# MELUSINA PUBLIC LICENSE, VERSION 3.0 (MPL-MEL-3.0)
+## Source-Available · AI-Clone-Protected · Five-Year Per-Version AGPL v3 Conversion
+
+<!-- schema:doc DOC:M06 version:3.0 -->
+
+**Document Code:** M06
+**Version:** 3.0
+**Effective Date:** 2026-07-09
+**Licensor of Record:** the Melusina commons co-owners — **Melusina Coop LU** (Luxembourg) and **Melusina Colorado LCA** (United States), as joint 50/50 co-owners — or, until the Day-Zero Fixation Deed (`DOC:GF_AG_DAYZERO_FIX`) closes and title vests, the interim commons rights-holder under the federation instruments.
+**Product (Tier 1 — Platform + Apps):** Melusina OS and every Melusina application/grain, including the Melusina-controlled software components of pBay and NamedCoin. The on-chain programs are additionally governed by §9 (Tier 2); the public verification/utility tools are governed by their own AGPL v3 notice (Tier 3) and are **not** licensed under this instrument.
+
+## Plain-English Summary
+
+> Melusina OS and the Melusina apps are **source-available, not open-source by default**. You may read, run, and (for security research) inspect source we gave you or published — you may **not** republish it, fork it, or use AI or people to clone or compete with it. Each published **version** turns into open source (**AGPL v3**) automatically **five years after that version's own publish date** — the five-year-old release opens, not the whole codebase.
+>
+> Use is **free** for a business under **$1,000,000/yr turnover with fewer than 50 staff**. Above that you pay a **flat fee for your revenue band** (you declare a wide band, never an exact figure — this is deliberately privacy-preserving), plus a per-app increment. Coops, designated operators, and the reserved beneficial-owner group (§7) use it free.
+>
+> This license supersedes MPL-MEL v1.0 and v2.0 and every prior M06 text.
+
+## 1. Definitions
+
+1.1. **Software** means Melusina OS and every Melusina application/grain, together with the Melusina-controlled software components of pBay and NamedCoin, in source or object form. The Solana License Registry program and the NamedCoin smart contracts are Software for copyright purposes and are **additionally** subject to §9.
+
+1.2. **Version** means a numbered release of a component of the Software with a published release date. Each Version carries its own independent clock under §8.
+
+1.3. **Direct Licensee** means a person or entity that receives a Melusina platform/code license directly from the Licensor of Record, a coop, an authorized operator, or the public license channel.
+
+1.4. **Authorized Organization** means a coop, regional operator, HRBR beneficially-owned operating company, white-label operator, issuer, reseller, or other organization granted platform rights under the federation instruments, the reseller agreement (`DOC:M08`), or a written commercial license.
+
+1.5. **End User** means a customer, consumer, employee, participant, or credential subject using a service provided by an Authorized Organization. An End User is **not** a Direct Licensee merely by using the service.
+
+1.6. **Turnover** means the Direct Licensee's own annual gross receipts, turnover, or equivalent total business income, measured per legal entity under the substance-over-form rule of §6.4.
+
+1.7. **Turnover Band** means the applicable revenue bracket in the §6.2 schedule. A Direct Licensee declares its **Band**, not a precise revenue figure.
+
+1.8. **Beneficial-Owner Licensee** means a person or entity within the reserved group defined in §7.
+
+1.9. **AGPL v3** means the GNU Affero General Public License, version 3.
+
+## 2. Acceptance
+
+A Direct Licensee accepts this license by downloading, installing, running, activating, accessing source code, executing a written acceptance, or paying a license fee. An End User accepts the serving organization's service terms, not this platform license, unless it separately becomes a Direct Licensee.
+
+## 3. License Grant
+
+Subject to this license, Licensor grants a Direct Licensee a non-exclusive, non-transferable, non-sublicensable license to run the Software for lawful internal or approved business use. An Authorized Organization may provide services to its own customers under its organizational license; those customers receive service access only — not sublicensing, source, or independent platform rights.
+
+Rights attach **only** to source that the Licensor legitimately provided to the licensee or published publicly. No rights arise in source obtained by any other means.
+
+## 4. Use Restrictions Before AGPL Conversion
+
+Before a Version converts under §8, a Direct Licensee may not:
+
+4.1. **(Anti-clone — the first and principal restriction.)** Use any artificial-intelligence system **or** human effort to port, reproduce, distill, retrain, retrieve-augment, or otherwise transfer any functionality of the Software into an open, competing, or derivative product, or to duplicate or compete with the Software. This prohibition targets clone-and-compete conduct. It does **not** restrict the federation's own AI tooling — including Waikiki, AI Lagoon, and the agent fleet — used for the internal development, operation, testing, auditing, or support of the Software.
+
+4.2. republish, redistribute, or publicly fork the source;
+
+4.3. sublicense, or purport to grant, any platform/code rights;
+
+4.4. remove, obscure, or alter provenance, attribution, or license notices;
+
+4.5. use the Software for unlawful conduct, sanctions evasion, or to obscure beneficial ownership;
+
+4.6. claim registry, issuer, coop, or federation authority not granted in writing (see §9).
+
+**Security-research carve-out.** Lawful access permits internal review, security research, debugging, and approved deployment modification. A licensee conducting good-faith security research **must disclose its findings to Melusina at least fourteen (14) days before any public disclosure.** This is a coordination window, not a veto; Melusina may accelerate where a vulnerability is under active exploitation.
+
+## 5. Anti-Clone Liquidated Damages
+
+The restriction in §4.1 protects interests whose loss is real but difficult to quantify. As a genuine pre-estimate of that harm agreed in advance, and **not as a penalty**, a Direct Licensee that breaches §4.1 before that Version's AGPL conversion shall pay liquidated damages equal to **the greater of (a) the gross revenue derived by the infringing party from the cloning or competing product in the year of breach, or (b) US $250,000.** The parties agree this is a reasonable forecast of the probable loss and is not disproportionate to it.
+
+These liquidated damages are **in addition to** Licensor's right to seek injunctive, equitable, specific, or other relief for the same breach (§13). Recovery of liquidated damages does not waive or exhaust any non-monetary remedy.
+
+## 6. Economic Terms
+
+6.1. **Free tier.** Use is **free** for any business with annual Turnover below **US $1,000,000 and fewer than 50 full-time-equivalent staff**, and for non-profits, coops, and designated federation/member/operator organizations, unless a specific adopted instrument says otherwise. Both the revenue and the headcount test must be satisfied to qualify as free.
+
+6.2. **Banded platform fee.** A Direct Licensee above the free tier pays a **flat annual fee for its Turnover Band** (privacy-preserving: the licensee declares a Band, not an exact figure):
+
+| Band | Annual Turnover | Annual Platform Fee |
+|---|---|---|
+| 0 | < $1M **and** < 50 staff | Free |
+| 1 | $1M – $5M | $10,000 |
+| 2 | $5M – $25M | $50,000 |
+| 3 | $25M – $100M | $250,000 |
+| 4 | $100M – $500M | $1,000,000 |
+| 5 | $500M – $1B | $3,000,000 |
+| 6 | $1B – $10B | $10,000,000 |
+| 7 | $10B+ | $25,000,000 |
+
+6.3. **Per-app increment and metered modules.** Each Melusina application/grain a licensee runs beyond the first adds **20%** to the licensee's Band fee. The payments/MSB module carries an additional fee **floored on processed transaction volume** per the then-current schedule, because a payments customer's value is not captured by turnover alone.
+
+6.4. **Substance over form.** Band and fee are measured per legal entity, but entity structure may not be used to escape the license or the Band. A **captive operator** (an entity used primarily to operate Melusina-powered services for a connected entity under common control) and a **fronting/pass-through** (a licensed entity whose Melusina-powered activity substantially serves a connected unlicensed entity) are collapsed into one for licensing and Band purposes; the entity actually receiving the benefit holds and pays the license it would need on its own. Genuinely independent operators serving unrelated clients are untouched.
+
+6.5. **Payment, attestation, and audit.** The fee is paid on the licensee's initiative to the Melusina smart contract, which records the licensee's attested Band on-chain as tamper-evident proof of status. The licensee **self-attests its Band at onboarding and at each annual renewal.** Licensor may audit records reasonably related to Band and fee on 30 days' notice; **the licensee bears the audit cost only where the audit finds an underpayment greater than 10%.** Below that, a good-faith misclassification is corrected without penalty.
+
+6.6. **Commercial license.** Licensor may offer a separate commercial license; if it conflicts with this public license, the signed commercial license controls for that Direct Licensee.
+
+## 7. Reserved Beneficial-Owner Free Use
+
+7.1. Each of the following **Reserved Beneficial Owners** — **HRBR.LIFE LTD**; **Alexei Karpov**; **Jean-Luc Jourdan**; and **Eduoard Khemchan** `[OPEN: confirm full legal name and spelling]` — holds a **perpetual, royalty-free** license to use the Software, at Band 0 (free), in any entity in which that person or company is a **beneficial owner of more than 25%** (applying the FinCEN 25%-ownership beneficial-ownership test already used in Melusina customer due diligence).
+
+7.2. **Scope — own business use only.** This reservation covers the Reserved Beneficial Owner's own internal and business use of the Software in a qualifying entity. It does **not** cover commercial resale, white-labeling, or sublicensing of the Software to third parties, which remains subject to the reseller agreement (`DOC:M08`) and is unaffected by this section — so a Reserved Beneficial Owner's separate reseller business (for example, a family office reselling Melusina to its own clients) continues to pay under its reseller instrument.
+
+7.3. This reservation grants **no** registry control, smart-contract keys, NamedCoin issuer authority, coop governance, or IP ownership; those require separate approval under §9 and the federation instruments.
+
+7.4. Each qualifying entity attests the qualifying beneficial owner and >25% basis at onboarding, recorded on-chain per §6.5. The reservation does not collide with, and is distinct from, the exclusive-territory "no carve-outs" language of the reseller agreement, which concerns reseller territory and not this beneficial-owner free use.
+
+## 8. Five-Year Per-Version AGPL v3 Conversion
+
+Every Version of the Software converts to **AGPL v3 automatically five years after that Version's own publish date**, on a per-Version clock. The specific released Version that reaches five years converts; the codebase as a whole does not, and newer Versions keep their own independent five-year clocks. After conversion, that Version may be used, modified, and redistributed under AGPL v3.
+
+Licensor may not retroactively extend the five-year clock for a released Version. The restriction clock in §4 and the conversion clock in this section are the **same** five-year period for a given Version. Brand and trademark rights never convert (§10).
+
+## 9. On-Chain Programs, Registry, and Issuer Rights (Tier 2)
+
+9.1. The Solana License Registry program and the NamedCoin smart contracts are licensed as Software under this instrument (source restrictions in §4, five-year conversion in §8). Their **core/protocol source is published for public audit** even before conversion, so any party may inspect the protocol governing licensing, registry, and credential state.
+
+9.2. Because deployed on-chain bytecode is inherently public, protection of the on-chain programs does **not** rest on secrecy. It rests on (a) the copyright restrictions of §4 over the source, (b) the Melusina/NamedCoin marks (§10), and (c) the on-chain authority itself — the Master NFT, the Squads/Consilium multisig, the License Registry state, and the authorized-issuer designations. A redeployment of the bytecode by another party carries none of that authority and is trusted by no Melusina install or TrustMaster verification.
+
+9.3. This license grants **no** registry control, smart-contract keys, release-signing rights, NamedCoin issuer authority, coop membership, or patronage rights. Those require separate approval under the federation instruments (`DOC:CF15`, `DOC:CF20`).
+
+## 10. Brand and Trademark
+
+The Melusina, NamedCoin, and pBay names and marks remain proprietary in perpetuity and do **not** convert to AGPL v3 at any time.
+
+## 11. White-Label and Operator Use
+
+White-label clients and operators use the Software under a coop/operator-controlled deployment and brand layer (`DOC:M08`). They receive no registry control, code ownership, platform keys, or sublicensing unless separately approved.
+
+## 12. Termination · No Warranty · Upstream OSS
+
+12.1. Licensor may terminate a Direct Licensee's pre-conversion rights for material breach after notice and, where practical, a cure period. Breaches of §4.1 (anti-clone), unauthorized sublicensing, source republication, or sanctions evasion may be terminated immediately. Termination does not impair AGPL v3 rights in Versions that have already converted.
+
+12.2. The Software is provided "as is" without warranty to the maximum extent permitted by law.
+
+12.3. Upstream open-source components are governed by their own respective licenses for the upstream portion, which prevail within their own scope; they are listed in the Melusina-OS upstream OSS attribution register.
+
+## 13. Governing Law and Disputes
+
+The governing law for this license is the State of **Montana, United States**, whose courts are chosen for their capacity to enforce the anti-clone liquidated damages of §5 where the Melusina operating entities have their nexus. Disputes on the merits are resolved by arbitration under AAA Commercial Rules seated in Montana. Notwithstanding the agreement to arbitrate, either party may seek **urgent injunctive or interim relief in any court of competent jurisdiction** — in particular to protect against anti-clone, source-republication, or other intellectual-property harm under §§4–5 — and seeking such relief is not a waiver of the agreement to arbitrate.
+
+## Changelog
+
+| Version | Date | Change |
+|---|---|---|
+| 3.0 | 2026-07-09 | **Harmonization release — supersedes v1.0 and v2.0 and all prior M06 texts.** Locked the five-year per-Version AGPL v3 clock (§8, restriction clock = conversion clock); restored the anti-clone prohibition as the first restriction (§4.1) with the federation-internal-AI carve-out and reinstated liquidated damages = greater of the clone's breach-year gross revenue or $250k (§5); replaced the percentage/own-total-turnover fee with the privacy-preserving **banded flat-fee ladder** ($1M free-tier + <50-staff belt → $25M top band, retiring the $5M/$10M caps) plus per-app +20% and payments-volume floor (§6); added self-attestation + on-chain Band attestation + >10%-shortfall audit rule (§6.5); added the **Reserved Beneficial-Owner free-use** section (§7 — HRBR.LIFE, Karpov, Jourdan, Khemchan[OPEN], >25% test, own-use-not-resale); consolidated the on-chain/Tier-2 authority-not-secrecy model (§9); set Licensor of Record to the LU Coop + CO LCA commons co-owners; set governing law to Montana with an any-court injunction carve-out (§13). |
+| 2.0 | 2026-06-29 | (Superseded) Switzerland law, 0.1%-of-total-turnover / $10M cap, four-year clock, coop licensor. |
+| 1.0 | 2026-04 | (Superseded) Montana law, banded flat-fee / $5M cap, five-year clock, Melusina Services LLC licensor. |
